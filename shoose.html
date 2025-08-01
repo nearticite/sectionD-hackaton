@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hollow Knight Tribute</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Cinzel', serif;
+      background-color: #0d0d0d;
+      color: white;
+      scroll-behavior: smooth;
+    }
+    header {
+      background: linear-gradient(to bottom, #0d0d0d, transparent);
+      text-align: center;
+      padding: 100px 20px;
+    }
+    header img {
+      width: 200px;
+      animation: fadeIn 2s ease;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin: 20px 0 10px;
+      animation: fadeIn 3s ease;
+    }
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background: rgba(0,0,0,0.8);
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: #8cd3ff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: white;
+    }
+    section {
+      max-width: 900px;
+      margin: auto;
+      padding: 50px 20px;
+      animation: fadeIn 2s ease;
+    }
+    h2 {
+      color: #8cd3ff;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 10px;
+      transition: transform 0.3s ease;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #1f1f1f;
+      margin-top: 50px;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="#story">Story</a>
+  <a href="#characters">Characters</a>
+  <a href="#gallery">Gallery</a>
+</nav>
+
+<header>
+  <img src="https://upload.wikimedia.org/wikipedia/en/0/03/Hollow_Knight_cover.jpg" alt="Hollow Knight Logo">
+  <h1>Welcome to Hallownest</h1>
+  <p>Explore the forgotten kingdom</p>
+</header>
+
+<section id="story">
+  <h2>Story</h2>
+  <p>
+    Beneath the fading town of Dirtmouth sleeps an ancient, ruined kingdom. Many are drawn below the surface, searching for riches, glory, or answers to old secrets.
+    As the Hollow Knight, you must brave the depths, uncover the mysteries, and face the ancient evils that plague Hallownest.
+  </p>
+</section>
+
+<section id="characters">
+  <h2>Characters</h2>
+  <p>Meet the key figures who shape your journey:</p>
+  <ul>
+    <li><strong>The Knight</strong> – A silent wanderer drawn to Hallownest.</li>
+    <li><strong>Hornet</strong> – Protector of Hallownest, agile and fierce.</li>
+    <li><strong>Quirrel</strong> – A curious traveler seeking knowledge.</li>
+  </ul>
+</section>
+
+<section id="gallery">
+  <h2>Gallery</h2>
+  <div class="gallery">
+    <img src="https://cdn.akamai.steamstatic.com/steam/apps/367520/ss_0a71f47a34eede7ff7b3c58b6fa619aeb63bf7b3.jpg" alt="Hollow Knight gameplay">
+    <img src="https://cdn.akamai.steamstatic.com/steam/apps/367520/ss_7b0a56f78972ab82e1f3fd91a53712d1c53b092b.jpg" alt="Hallownest scenery">
+    <img src="https://cdn.akamai.steamstatic.com/steam/apps/367520/ss_c6cd87b5f6c8e223f8c06c87b9cb3b42f63268a2.jpg" alt="Hornet battle">
+  </div>
+</section>
+
+<footer>
+  <p>Fan project – Hollow Knight © Team Cherry</p>
+</footer>
+
+</body>
+</html>
