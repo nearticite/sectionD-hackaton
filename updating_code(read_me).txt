@@ -1,0 +1,15 @@
+git clone https://github.com/nearticite/sectionD-hackaton.git
+
+
+
+cd sectionD-hackaton
+
+
+
+git config --global user.email "you@example.com"
+
+
+
+git add .
+git commit -m "ekteb weech zedt hna"
+git push
